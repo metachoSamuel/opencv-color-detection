@@ -27,3 +27,6 @@ def draw_contour(mask, color):
             cv2.line(frame, (x,y), (x,y+h), color, 3)
             cv2.putText(frame, color_word, (x-10, y-10),0 ,0.75, color, 2, cv2.LINE_AA)
             
+
+video_capture = cv2.videoCapture(1)
+            
