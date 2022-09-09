@@ -55,7 +55,7 @@ red_low_2 = np.array([165,100,20], np.uint8)
 red_high_2 = np.array([179,255,255], np.uint8)
 
 #Video Capture
-video_capture = cv2.VideoCapture(1)
+video_capture = cv2.VideoCapture(0)
 
 while True:
     # the read method returns two values, ret and frame
